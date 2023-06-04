@@ -1,69 +1,11 @@
-/* Index */
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-
-:root {
-  --text-font-family: Roboto, sans-serif;
-  --secondary-clr: #212121;
-  --third-clr: #2196f3;
-  --link-text-clr: #757575;
-  --dark-gray-section-clr: #2f303a;
-  --main-second-backround-clr: #f5f4fa;
-  --social-icons-clr: #afb1b8;
-  --primary-clr: #fff;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-body {
-  font-family: var(--text-font-family);
-}
-
-h1 {
-  color: var(--primary-clr);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 30px;
-}
-h2 {
-  color: var(--secondary-clr);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 50px;
-}
-
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+@import "../sass/utils/variables";
+@import "../sass/components/base";
 
 .section {
   margin: auto;
   width: 1600px;
   padding: 94px 0;
-}
-
-.filter-buttons {
-  margin-bottom: 50px;
 }
 
 .container {
