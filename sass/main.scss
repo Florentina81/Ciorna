@@ -111,7 +111,7 @@
   color: var(--third-clr);
 }
 
-.global-header a.mail {
+.global-header a {
   position: relative;
   display: flex;
   align-items: center;
@@ -121,14 +121,14 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.global-header a.mail:hover,
-.global-header a.mail:focus {
+.global-header a:hover,
+.global-header a:focus {
   color: var(--third-clr);
   outline: 0;
 }
 
-.global-header a.mail:hover::after,
-.global-header a.mail:focus::after {
+.global-header a:hover::after,
+.global-header a:focus::after {
   content: "";
   position: absolute;
   height: 4px;
@@ -465,6 +465,8 @@ address a:focus {
   border-radius: 50%;
   outline: 0;
 }
+
+/* Portofolio */
 
 .section .category-flex {
   padding-top: 0;
