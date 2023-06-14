@@ -8,27 +8,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Document</title>
   </head>
 
   <body>
     <header class="global-header section">
-      <div class="container container-header">
+      <div class="container global-container">
         <div class="logo">
-          <a href="index.html" class="logo_home-button"
-            ><span class="logo_button">Web</span>Studio</a
+          <a href="index.html" class="logo--home-button"
+            ><span class="logo--button">Web</span>Studio</a
           >
         </div>
-        <div class="super-nav-class">
-          <nav class="main-navigation">
-            <a href="./index.html" class="active-studio">Studio</a>
-            <a href="portfolio.html" class="active">Portfolio</a>
-            <a href="Contacts" class="active">Contacts</a>
+        <div class="navigation">
+          <nav class="navigation_link">
+            <a href="./index.html" class="navigation_link---link-active"
+              >Studio</a
+            >
+            <a href="./portofolio.html" class="navigation_link--link"
+              >Portfolio</a
+            >
+            <a href="#Contacts" class="navigation_link--link">Contacts</a>
           </nav>
-          <ul class="contact">
+          <ul class="navigation_contact">
             <li>
-              <a href="info@devstudio.com" class="mail"
+              <a
+                href="mailto:info@devstudio.com"
+                class="navigation_contact--mail"
                 ><svg>
                   <use
                     href="./icons/symbol-defs.svg#icon-envelope-hover"
@@ -37,7 +43,7 @@
               </a>
             </li>
             <li>
-              <a href="tel:+12127724150" class="phone-number"
+              <a href="tel:+12127724150" class="navigation_contact--phone"
                 ><svg>
                   <use
                     href="./icons/symbol-defs.svg#icon-smartphone"
@@ -368,12 +374,12 @@
           >
 
           <address class="main-address">
-            <p class="corection">695 Park Ave, NY 10065, USA</p>
+            <p class="address">695 Park Ave, NY 10065, USA</p>
 
-            <div class="corection-link">
-              <a href="info@devstudio.com">info@devstudio.com</a>
+            <div class="address-link">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
-            <div class="corection-link">
+            <div class="address-link">
               <a href="tel:+12127724150" class="phone-number"
                 >+1 212-772-4150</a
               >
@@ -421,20 +427,23 @@
             </a>
           </div>
         </div>
-         
+
         <form>
           <div class="subscribe">
-         <label>Subscribe to the newsletter</label>
-         <input type="email" name="E-mail" placeholder="E-mail" required />
+            <label class="subscribe_label">Subscribe to the newsletter</label>
+            <input
+              class="subscribe_input"
+              type="email"
+              name="E-mail"
+              placeholder="E-mail"
+              required
+            />
           </div>
-         <button type="submit" class="subscribe-btn">Subscribe</button>
-         
-       </form>
-      </div>
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
       </div>
     </footer>
 
-    <script src="./css/form.js" type="text/javascript"></script>
+    <script src="./css/form.js"></script>
   </body>
 </html>
-

@@ -1,0 +1,31 @@
+.second-section {
+  color: var(--link-text-clr);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  & p {
+    color: var(--secondary-clr);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+
+.second-section-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-section-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-second-backround-clr);
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

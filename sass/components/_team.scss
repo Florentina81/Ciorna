@@ -1,0 +1,83 @@
+h2 {
+  color: var(--secondary-clr);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.fourth-section {
+  background: var(--main-second-backround-clr);
+
+  & ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+  }
+}
+
+.fourth-section li {
+  background: var(--primary-clr);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  & p {
+    padding-bottom: 10px;
+    margin: 0;
+
+    & em {
+      color: var(--link-text-clr);
+      font-weight: 400;
+      font-size: 16px;
+      font-style: normal;
+    }
+  }
+}
+
+ul li div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  & P {
+    margin: 0;
+  }
+}
+
+.ourteam-list .icons-list .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  fill: var(--social-icons-clr);
+}
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 16px;
+  padding-bottom: 0;
+
+  & .icons svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+.ourteam-list .icons-list .icons:hover,
+.ourteam-list .icons-list .icons:focus {
+  color: var(--primary-clr);
+  background-color: var(--third-clr);
+  border-radius: 50%;
+  outline: 0;
+}
